@@ -1,15 +1,12 @@
 package com.poly.jwtauth.security;
 
-import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.JwtParser;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import javax.crypto.SecretKey;
-import java.security.spec.KeySpec;
 import java.util.Date;
 import java.util.Map;
 
